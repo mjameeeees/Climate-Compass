@@ -1,0 +1,26 @@
+.app{
+    box-shadow: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#weather_details{
+    padding: 3rem;
+}
+
+
+.textDashboard {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .textDashboard {
+      font-size: 14px;
+    
+    }
+  }
